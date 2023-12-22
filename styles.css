@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FED9ED;
+    font-size: 1.25rem;
+    color: #444444;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #E7BCDE;
+    padding: 2.5rem 5rem;
+}
+
+.main-heading {
+    display: block;
+    text-decoration: none;
+    color: #67729D;
+    font-size: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.main-image {
+    margin-bottom: 2.5rem;
+}
+
+p {
+    margin-bottom: 1.875rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
+nav ul li a,
+.button-home {
+    text-decoration: none;
+    color: #FED9ED;
+    display: inline-block;
+    padding: 1.25rem;
+    border: 2px solid #FED9ED;
+    background-color: #67729D;
+}
+
+nav ul li a:hover,
+.button-home:hover,
+nav ul li a:active,
+.button-home:active {
+    background-color: #FED9ED;
+    border: 2px solid #67729D;
+    color: #67729D;
+}
+
+.subheading {
+    margin-bottom: 2.5rem;
+}
+
+.ingredients-list,
+.steps-list {
+    margin-bottom: 2.5rem;
+}
+
+.ingredients-list li,
+.steps-list li {
+    margin-bottom: .625rem;
+}
